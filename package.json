@@ -1,0 +1,26 @@
+{
+    "name": "nodejs_blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TruongDiem2k/node-js-blog.git"
+    },
+    "author": "TD2k",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TruongDiem2k/node-js-blog/issues"
+    },
+    "homepage": "https://github.com/TruongDiem2k/node-js-blog#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
